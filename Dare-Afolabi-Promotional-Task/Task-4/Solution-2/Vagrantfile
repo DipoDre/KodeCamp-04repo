@@ -1,0 +1,7 @@
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/bionic64"
+
+  config.vm.provision "file", source: "./scripts/set_up.py", destination: "script.py"
+  config.vm.provision "shell", path: "scripts/set_up.sh"  
+end
