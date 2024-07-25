@@ -501,3 +501,9 @@ AWS Dashboard
 ![Alt text](images/aws-ec2.png)
 ![Alt text](images/aws-vpc.png)
 
+Run **terraform destroy**
+![Alt text](images/terraform-destroy-1.png)
+![Alt text](images/terraform-destroy-2.png)
+![Alt text](images/terraform-destroy-3.png)
+
+
